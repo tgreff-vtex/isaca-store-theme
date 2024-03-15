@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.0] - 2024-03-15
+### Changed
+
+- Updated entire look/feel for 'Arapahoe Appliances'
+
 ## [5.1.0] - 2022-06-07
 ### Changed
 - Fixed height in `list-context.image-list#demo` example.
