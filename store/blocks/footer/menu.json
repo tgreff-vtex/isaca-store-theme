@@ -1,206 +1,231 @@
 {
-  "vtex.menu@2.x:menu#Products": {
+  "vtex.menu@2.x:menu#major-appliances": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "menu-item#footer-major-appliances",
+      "menu-item#footer-refrigerators",
+      "menu-item#footer-ranges---ovens",
+      "menu-item#footer-washers---dryers"
     ]
   },
-  "menu-item#news": {
+  "menu-item#footer-major-appliances": {
     "props": {
-      "id": "menu-item-news",
+      "id": "menu-item-footer-major-appliances",
+      "blockClass": "category-header",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/major-appliances/",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Major Appliances",
+        "text": "Major Appliances"
       }
     }
   },
-  "menu-item#blackfriday": {
+  "menu-item#footer-refrigerators": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item-footer-refrigerators",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/major-appliances/refrigerators/",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Refrigerators",
+        "text": "Refrigerators"
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#footer-ranges---ovens": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item-footer-ranges---ovens",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/major-appliances/ranges---ovens/",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Ranges & Ovens",
+        "text": "Ranges & Ovens"
       }
     }
   },
-  "menu-item#personalization": {
+  "menu-item#footer-washers---dryers": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item-footer-washers---dryers",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/major-appliances/washers---dryers/",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Washers & Dryers",
+        "text": "Washers & Dryers"
       }
     }
   },
 
-  "vtex.menu@2.x:menu#footer-decoration": {
+  "vtex.menu@2.x:menu#footer-small-appliances": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#footer-small-appliances",
+      "menu-item#footer-mixers---blenders",
+      "menu-item#footer-coffee-makers",
+      "menu-item#footer-toasters---grills"
     ]
   },
-
-  "menu-item#smartphones": {
+  "menu-item#footer-small-appliances": {
     "props": {
-      "id": "menu-item-smartphones",
+      "id": "menu-item-footer-small-appliances",
+      "blockClass": "category-header",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
-        "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "href": "/small-appliances/",
+        "noFollow": false,
+        "tagTitle": "small Appliances",
+        "text": "Small Appliances"
+      }
+    }
+  },
+  "menu-item#footer-mixers---blenders": {
+    "props": {
+      "id": "menu-item-footer-mixers---blenders",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/small-appliances/mixers---blenders/",
+        "noFollow": false,
+        "tagTitle": "Mixers & Blenders",
+        "text": "Mixers & Blenders"
+      }
+    }
+  },
+  "menu-item#footer-coffee-makers": {
+    "props": {
+      "id": "menu-item-footer-coffee-makers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/small-appliances/coffee-makers/",
+        "noFollow": false,
+        "tagTitle": "Coffee Makers",
+        "text": "Coffee Makers"
+      }
+    }
+  },
+  "menu-item#footer-toasters---grills": {
+    "props": {
+      "id": "menu-item-footer-toasters---grills",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/small-appliances/toasters---grills/",
+        "noFollow": false,
+        "tagTitle": "Toasters & Grills",
+        "text": "Toasters & Grills"
       }
     }
   },
 
-  "menu-item#videogames": {
+  "vtex.menu@2.x:menu#footer-electronics": {
     "props": {
-      "id": "menu-item-videogames",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-electronics",
+      "menu-item#footer-cameras",
+      "menu-item#footer-tvs",
+      "menu-item#footer-laptops"
+    ]
+  },
+  "menu-item#footer-electronics": {
+    "props": {
+      "id": "menu-item-footer-electronics",
+      "blockClass": "category-header",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
-        "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "href": "/electronics/",
+        "noFollow": false,
+        "tagTitle": "Electronics",
+        "text": "Electronics"
       }
     }
   },
-
-  "menu-item#tvs": {
+  "menu-item#footer-cameras": {
     "props": {
-      "id": "menu-item-tvs",
+      "id": "menu-item-footer-cameras",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
-        "noFollow": true,
+        "href": "/electronics/cameras/",
+        "noFollow": false,
+        "tagTitle": "Cameras",
+        "text": "Cameras"
+      }
+    }
+  },
+  "menu-item#footer-tvs": {
+    "props": {
+      "id": "menu-item-footer-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/tvs/",
+        "noFollow": false,
         "tagTitle": "TVs",
         "text": "TVs"
       }
     }
   },
-
-  "vtex.menu@2.x:menu#footer-bags": {
+  "menu-item#footer-laptops": {
     "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
-    ]
-  },
-
-  "menu-item#bags": {
-    "props": {
-      "id": "menu-item-bags",
+      "id": "menu-item-footer-laptops",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/d",
-        "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
+        "href": "/electronics/laptops/",
+        "noFollow": false,
+        "tagTitle": "Laptops",
+        "text": "Laptops"
       }
     }
   },
 
-  "menu-item#backpacks": {
-    "props": {
-      "id": "menu-item-backpacks",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/backpacks",
-        "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
-      }
-    }
+  "vtex.menu@2.x:menu#footer-accepted-payment-methods": {
+    "children": ["accepted-payment-methods"]
   },
-
-  "menu-item#necessaire": {
+  "accepted-payment-methods": {
     "props": {
-      "id": "menu-item-necessaire",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/necessaire",
-        "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
-      }
+      "blockClass": "payment-methods",
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
     }
-  },
-
-  "vtex.menu@2.x:menu#footer-clothing": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
-    ]
   },
 
   "vtex.menu@2.x:menu#footer-mobile": {
@@ -208,186 +233,88 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "menu-item#major-appliances-mobile",
+      "menu-item#small-appliances-mobile",
+      "menu-item#footer-electronics-mobile"
     ]
   },
 
-  "menu-item#clothing-mobile": {
+  "menu-item#major-appliances-mobile": {
     "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-footer-mobile-major-appliances",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/major-appliances/",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Major Appliances",
+        "text": "Major Appliances"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#major-appliances"]
   },
-  "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  "vtex.menu@2.x:submenu.accordion#major-appliances": {
+    "children": ["vtex.menu@2.x:menu#major-appliances-accordion"]
   },
 
-  "vtex.menu@2.x:menu#clothing-accordion": {
+  "vtex.menu@2.x:menu#major-appliances-accordion": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#footer-refrigerators",
+      "menu-item#footer-ranges---ovens",
+      "menu-item#footer-washers---dryers"
     ]
   },
 
-  "menu-item#decoration-mobile": {
+  "menu-item#small-appliances-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+        "tagTitle": "Small Appliances",
+        "text": "Small Appliances"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#small-appliances"]
   },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  "vtex.menu@2.x:submenu.accordion#small-appliances": {
+    "children": ["vtex.menu@2.x:menu#footer-small-appliances-mobile"]
   },
 
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+  "vtex.menu@2.x:menu#footer-small-appliances-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#footer-mixers---blenders",
+      "menu-item#footer-coffee-makers",
+      "menu-item#footer-toasters---grills"
     ]
   },
 
-  "menu-item#sale-mobile": {
+  "menu-item#footer-electronics-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Electronics",
+        "text": "Electronics"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+    "blocks": ["vtex.menu@2.x:submenu.accordion#footer-electronics"]
   },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  "vtex.menu@2.x:submenu.accordion#footer-electronics": {
+    "children": ["vtex.menu@2.x:menu#footer-electronics-mobile"]
   },
 
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
+  "vtex.menu@2.x:menu#footer-electronics-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#footer-cameras",
+      "menu-item#footer-tvs",
+      "menu-item#footer-laptops"
     ]
-  },
-
-  "menu-item#clothing": {
-    "props": {
-      "id": "menu-item-category-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-
-  "menu-item#shorts": {
-    "props": {
-      "id": "menu-item-shorts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shorts",
-        "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
-      }
-    }
-  },
-
-  "menu-item#tank-tops": {
-    "props": {
-      "id": "menu-item-tank-tops",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/tank-tops",
-        "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
-      }
-    }
-  },
-
-  "menu-item#shirts": {
-    "props": {
-      "id": "menu-item-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shirts",
-        "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
-      }
-    }
-  },
-
-  "menu-item#sweatshirt": {
-    "props": {
-      "id": "menu-item-sweat-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/sweatshirt",
-        "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
-      }
-    }
-  },
-
-  "menu-item#cropped": {
-    "props": {
-      "id": "menu-item-cropped",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/cropped",
-        "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
-      }
-    }
   }
 }

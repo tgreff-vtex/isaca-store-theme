@@ -19,7 +19,7 @@
       "fullWidth": true
     }
   },
-  
+
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -29,11 +29,20 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
+      "rich-text#disclaimer",
       "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "locale-switcher"
     ]
   },
+
+  "rich-text#disclaimer": {
+    "props": {
+      "blockClass": "disclaimer",
+      "text": "This storefront is purely for demonstrating the powers of VTEX. No products or sales are factual.",
+      "textColor": "c-on-base-inverted" // color: #ffffff
+    }
+  },
+
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -57,9 +66,8 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
-      "flex-layout.col#spacer",
+      "flex-layout.col#header-spacer",
       "search-bar",
-      "locale-switcher",
       "login",
       "minicart.v2"
     ]
@@ -80,9 +88,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
+      "url": "https://tylergreff.vtexassets.com/arquivos/tylergreff_store-theme_logo_f0f0f0.png",
+      // "width": "180",
+      "height": "50"
     }
   },
   "header-layout.mobile": {
@@ -112,9 +120,9 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-major-appliances",
+      "menu-item#category-small-appliances",
+      "menu-item#category-electronics"
     ],
     "props": {
       "orientation": "vertical"
@@ -125,9 +133,15 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://tylergreff.vtexassets.com/arquivos/tylergreff_store-theme_logo_f0f0f0.png",
       "width": "77.5",
       "height": "27.5"
+    }
+  },
+
+  "flex-layout.col#header-spacer": {
+    "props": {
+      "width": "grow"
     }
   }
 }

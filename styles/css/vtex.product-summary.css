@@ -19,6 +19,7 @@
 
 .nameContainer {
   justify-content: start;
+  min-height: 5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -39,4 +40,20 @@
 
 .image {
   border-radius: 0.25rem;
+}
+
+.element {
+  align-items: center;
+}
+
+.element--product-card {
+  padding-right: 2rem;
+}
+
+.element--product-card:last-child {
+  padding-right: 0rem;
+}
+
+.buyButton {
+  background-color: #FFC4DD !important;
 }

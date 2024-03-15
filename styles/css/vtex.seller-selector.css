@@ -1,0 +1,39 @@
+.sellerMasterContainer {
+  margin-left: 0px;
+}
+
+.sellerHead {
+  background-color: #f71963;
+  color: white;
+  margin-left: 0px;
+}
+
+.sellerName {
+  width: 10rem;
+}
+
+.sellerHeadText {
+  width: 10rem;
+  align-items: flex-start;
+}
+
+.sellerList {
+  margin-left: 0px;
+}
+
+.sellerHeadText {
+  font-weight: bolder;
+}
+
+.sellerBuyContainer {
+  width: 10rem;
+}
+
+.sellerHeadCell {
+  width: 33% !important;
+}
+
+/* .sellerHeadText {
+  width: 7.5rem;
+} */
+

@@ -1,0 +1,14 @@
+.styledLinkContent {
+  font-family: Lato-Regular;
+  /* font-weight: 300; */
+}
+
+.menuContainerNav {
+  display: flex;
+  justify-items: center;
+}
+
+.styledLinkContent--category-header {
+  font-family: Lato-Black;
+  text-decoration: underline;
+}

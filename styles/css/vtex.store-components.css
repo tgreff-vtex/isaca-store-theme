@@ -14,13 +14,14 @@
 }
 
 .newsletter {
-  background-color: #03054e;
+  background-color: blue;
   max-width: 1528px;
   margin: 0 auto;
 }
 
 .newsletter .container {
   padding: 60px 10px;
+  background-color: #F71963;
 }
 
 .label {
@@ -110,4 +111,23 @@
 
 .image {
   image-rendering: -webkit-optimize-contrast;
+}
+
+.test {
+  background-color: #F71963;
+}
+
+.flexRowContent.flexRowContent--contact-form {
+  background-color: #F71963;
+}
+
+.productDescriptionContainer {
+  margin-top: .25em;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.productDescriptionTitle {
+  color: #3f3f40;
+  height: 2rem;
 }

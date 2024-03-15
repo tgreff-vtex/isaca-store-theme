@@ -1,0 +1,13 @@
+.newsletterForm {
+  display: flex;
+  align-items: center;
+}
+
+.formSubmitContainer {
+  border-radius: 10%;
+  margin-left: 1rem;
+}
+
+.emailInputContainer {
+  width: 30rem;
+}

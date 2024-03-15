@@ -1,104 +1,92 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "image#whirlpool-collection",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "__fold__",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "rich-text#shelf-1-title",
+      "flex-layout.row#shelf-1",
+      "flex-layout.row#contact",
+      "rich-text#shelf-2-title",
+      "flex-layout.row#shelf-2"
     ]
   },
 
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "image#whirlpool-collection": {
     "props": {
-      "height": 570,
+      "src": "assets/images/whirlpool-sale-banner.jpeg",
+      "width": "fullWidth",
       "preload": true,
-      "images": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
-        }
-      ]
-    }
-  },
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "callToActionUrl": "/whirlpool"
+
     }
   },
 
-  "rich-text#shelf-title": {
+  "rich-text#shelf-1-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Top Sellers",
       "blockClass": "shelfTitle"
     }
   },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+  "flex-layout.row#shelf-1": {
+    "children": ["list-context.product-list#demo-1"]
   },
-  "list-context.product-list#demo1": {
+  "list-context.product-list#demo-1": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "children": ["slider-layout#top-sellers"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#top-sellers": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 3,
         "tablet": 3,
         "phone": 1
       },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf"
+      "blockClass": "shelf",
+      "usePagination": "false"
     }
   },
 
-  "info-card#home": {
+  "newsletter": {
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
+      "label": "Subscribe to our newsletter\nand get 15% off!"
     }
   },
 
-  "rich-text#question": {
+  "rich-text#shelf-2-title": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+      "text": "## New Releases",
+      "blockClass": "shelfTitle"
     }
   },
-
-  "rich-text#link": {
+  "flex-layout.row#shelf-2": {
+    "children": ["list-context.product-list#demo-2"]
+  },
+  "list-context.product-list#demo-2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#new-products"],
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "orderBy": "OrderByReleaseDateDESC"
+    }
+  },
+  "slider-layout#new-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "usePagination": "false"
     }
   }
 }

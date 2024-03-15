@@ -19,13 +19,13 @@
   },
   "image#deal1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "assets/images/package-icon.png",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "Free shipping on\norders over $100",
       "blockClass": "deals"
     }
   },
@@ -37,13 +37,13 @@
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
+      "src": "assets/images/free-shipping-icon.png",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "Two-day delivery\nfor all customers",
       "blockClass": "deals"
     }
   },
@@ -55,13 +55,13 @@
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
+      "src": "assets/images/store-icon.png",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
+      "text": "Pickup in Store &\nShip from Store",
       "blockClass": "deals"
     }
   },
@@ -73,13 +73,13 @@
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
+      "src": "assets/images/deals-icon.png",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal4": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "Exclusive deals for\nloyalty members",
       "blockClass": "deals"
     }
   }

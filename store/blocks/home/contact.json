@@ -1,0 +1,81 @@
+{
+  "flex-layout.row#contact": {
+    "props": {
+      "blockClass": "contact-row",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#newsletter",
+      "flex-layout.col#contact-spacer",
+      "social-networks"
+    ]
+  },
+
+  "flex-layout.col#newsletter": {
+    "props":{
+      "blockClass": "newsletter"
+    },
+    "children": [
+      "rich-text#subscribe",
+      "flex-layout.row#form"
+    ]
+  },
+
+  "rich-text#subscribe": {
+    "props": {
+      "text": "Subscribe to our newsletter and get 15% off your next purchase!",
+      "textColor": "c-on-base-inverted",
+      "blockClass": "subscribe"
+    }
+  },
+
+  "flex-layout.row#form": {
+    "children": [
+      "newsletter-form"
+    ],
+    "props": {
+      "blockClass": "form"
+    }
+  },
+
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit"
+    ]
+  },
+
+  "flex-layout.col#contact-spacer": {
+    "props": {
+      "width": "grow",
+      "blockClass": "contact"
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "blockClass": "socials",
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  }
+}

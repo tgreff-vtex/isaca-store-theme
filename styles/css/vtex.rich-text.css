@@ -88,3 +88,41 @@
     line-height: 1.3em;
   }
 }
+
+.paragraph--disclaimer {
+  font-size: small;
+  color: white;
+  justify-content: left;
+  padding-left: 1rem;
+}
+
+.paragraph--footer {
+  font-family: Lato-Light;
+}
+
+.paragraph--deals {
+  color: #5E6E84;
+}
+
+.paragraph--subscribe {
+  color: #5E6E84;
+  font-family: Lato-Regular;
+  /* font-weight: bold; */
+  margin-left: 1rem;
+}
+
+.container--subscribe {
+  background-color: #FFE0EF;
+  width: 50rem;
+}
+
+.paragraph--spec-title {
+  margin-block-start: 0em;
+  margin-block-end: .75em;
+  line-height: 1.15em;
+}
+
+.wrapper--spec-title {
+  height: 2rem;
+}
+

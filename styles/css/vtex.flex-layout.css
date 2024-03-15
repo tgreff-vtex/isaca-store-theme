@@ -1,25 +1,37 @@
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
-  padding: 0 0.5rem;
+  padding: 0 0rem;
+}
+
+.flexRowContent.flexRowContent--main-header {
+  background-color: #f0f0f0;
+}
+
+.flexRowContent.flexRowContent--menu-link {
+  color: white;
+}
+
+.flexCol--menu-link {
+  background-color: #f0f0f0;
 }
 
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
-    padding: 0 1rem;
+    padding: 0 0rem;
   }
 }
 
 @media screen and (min-width: 80rem) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
-    padding: 0 0.25rem;
+    padding: 0 0rem;
   }
 }
 
 .flexRowContent--menu-link {
-  background-color: #03044e;
-  color: #fff;
+  background-color: #f71963;
+  color: white;
 }
 
 .flexRowContent--main-header {
@@ -40,11 +52,17 @@
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #727273;
   font-size: 14px;
+  border-bottom: #03044e;
+}
+
+.flexCol--main-header {
+  background-color: #f71963;
 }
 
 .flexRow--deals {
-  background-color: #0F3E99;
+  background-color: #FFE0EF;
   padding: 14px 0px;
+  margin-top: -5px;
 }
 
 .flexRow--deals .stretchChildrenWidth {
@@ -60,6 +78,7 @@
 .flexCol--filterCol {
   max-width: 500px;
   min-width: 230px;
+  padding-left: 1rem;
 }
 
 .flexCol--productCountCol {
@@ -96,3 +115,40 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+.flexCol--contact, .flexColChild--newsletter {
+  background-color: #FFE0EF;
+}
+
+.flexRowContent--form {
+  background-color: #FFE0EF;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.flexRowContent.flexRowContent--socials {
+  justify-items: center;
+  background-color: blue;
+}
+
+.flexRowContent.flexRowContent--footer-menu {
+  background-color: #f71963;
+  width: 100vw;
+}
+
+.flexRowContent.flexRowContent--menu-row {
+  padding-bottom: 1rem;
+}
+
+.flexCol--spec-col {
+  margin-left: 5rem;
+  margin-left: 5rem;
+}
+
+.flexColChild--spec-col {
+  margin-bottom: 1rem;
+  max-height: 3rem;
+
+}
+
+
