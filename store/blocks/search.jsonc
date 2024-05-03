@@ -1,6 +1,8 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout"],
+    "blocks": [
+      "search-result-layout"
+    ],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -62,6 +64,7 @@
 
   "search-result-layout.desktop": {
     "children": [
+      "flex-layout.row#search-banner",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
@@ -72,6 +75,21 @@
       "defaultGalleryLayout": "grid"
     }
   },
+
+  "flex-layout.row#search-banner": {
+    "children": [
+      "search-banner#one"
+    ]
+  },
+
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
+
   "flex-layout.row#searchbread": {
     "children": ["breadcrumb.search"],
     "props": {
@@ -79,6 +97,7 @@
       "fullWidth": true
     }
   },
+
   "flex-layout.row#searchtitle": {
     "children": ["search-title.v2"]
   },

@@ -5,3 +5,24 @@
 .buttonText {
   color: white;
 }
+
+/* .container {
+  position: relative;
+}
+ */
+
+.relativeContainer {
+  position: absolute;
+}
+
+.list {
+  position: absolute; /* Set position absolute on the expanded menu */
+  top: 100%; /* Position it below the container */
+  left: 0; /* Align it with the left edge of the container */
+  z-index: 9999; /* Ensure it appears above other elements */
+  margin-right: 5rem;
+}
+
+.localeIdText {
+  color: black;
+}

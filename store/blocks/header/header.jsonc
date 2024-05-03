@@ -7,20 +7,83 @@
   },
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#1-desktop",
-      "flex-layout.row#3-desktop",
+      // "check-permission#reseller-overlay-trigger",
+      "flex-layout.row#1-desktop-telemarketing",
+      "flex-layout.row#3-desktop-disclaimer",
+      "flex-layout.row#b2b-user-widget",
       "sticky-layout#4-desktop"
     ]
   },
 
-  "flex-layout.row#1-desktop": {
+  "flex-layout.row#b2b-user-widget": {
+    "children": [
+      "b2b-user-widget"
+      // "rich-text#test",
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "b2b"
+    }
+  },
+
+  "b2b-user-widget": {
+    "props": {
+      "showLoadingIndicator": true
+    }
+  },
+
+  "link#reseller": {
+    "props": {
+      "label": "Organization Request",
+      "href": "/organization-request",
+      "blockClass": "resellerLink"
+    }
+  },
+
+  "link#organization": {
+    "props": {
+      "label": "Gerenciar organização",
+      "href": "/account#/organization",
+      "blockClass": "orderQuote"
+    }
+  },
+
+  "link#orderQuote": {
+    "props": {
+      "label": "Minhas cotações",
+      "href": "/b2b-quotes",
+      "blockClass": "orderQuote"
+    }
+  },
+
+  "flex-layout.row#1-desktop-telemarketing": {
     "children": ["telemarketing"],
     "props": {
       "fullWidth": true
     }
   },
 
-  "flex-layout.row#3-desktop": {
+  "link#profile": {
+    "children": ["icon-profile"],
+    "props": {
+      "href": "/account",
+      "blockClass": "accountLink"
+    }
+  },
+
+  "login": {
+    "props": {
+      "iconLabel": "Login"
+    }
+  },
+
+  "login#mobile": {
+    "props": {
+      "iconLabel": "Login"
+    }
+  },
+
+  "flex-layout.row#3-desktop-disclaimer": {
     "props": {
       "blockClass": "menu-link",
       "horizontalAlign": "center",
@@ -30,8 +93,8 @@
     },
     "children": [
       "rich-text#disclaimer",
-      "flex-layout.col#spacer",
-      "locale-switcher"
+      "flex-layout.col#spacer"
+      // "locale-switcher"
     ]
   },
 
@@ -48,6 +111,7 @@
       "width": "grow"
     }
   },
+
   "sticky-layout#4-desktop": {
     "props": {
       "blockClass": "sticky-header"
@@ -67,7 +131,9 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
       "flex-layout.col#header-spacer",
+      // "link#quickOrder",
       "search-bar",
+      "locale-switcher",
       "login",
       "minicart.v2"
     ]
@@ -84,6 +150,21 @@
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
+
+  "link#quickOrder": {
+    "children": ["rich-text#quickTitle"],
+    "props": {
+      "blockClass": "quickLink",
+      "href": "/quickorder"
+    }
+  },
+  "rich-text#quickTitle": {
+    "props": {
+      "text": "Quick Order",
+      "blockClass": "quickTitle"
+    }
+  },
+
   "logo#desktop": {
     "props": {
       "title": "Logo",

@@ -3,6 +3,11 @@
   padding: 0 0rem;
 }
 
+.flexRowContent--disclaimer {
+  background-color: pink;
+  color: black;
+}
+
 .flexRowContent.flexRowContent--main-header {
   background-color: #f0f0f0;
 }
@@ -148,7 +153,10 @@
 .flexColChild--spec-col {
   margin-bottom: 1rem;
   max-height: 3rem;
+}
 
+.flexRowContent--b2b {
+  background-color: #03044e;
 }
 
 

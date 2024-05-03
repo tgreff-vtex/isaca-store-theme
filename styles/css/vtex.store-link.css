@@ -1,0 +1,37 @@
+.link--quickLink {
+  text-decoration: none;
+  /* position: relative; */
+  display: flex;
+  justify-items: center;
+  margin-right: 2rem;
+}
+
+.link--quickLink::after {
+  display: none;
+}
+
+.link--quickOrderButton {
+  text-decoration: none;
+  background: #f2f5f9;
+  border: 1px solid var(--lines-light);
+  display: block;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  position: relative;
+  color: white;
+}
+
+.link--quickOrderButton::after {
+  /* content: url("assets/icons/nav-arrow-right-blue.svg"); */
+  display: block;
+  position: absolute;
+  color: var(--black-medium);
+  right: 12px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.childrenContainer--quickLink {
+  display: flex;
+  justify-items: center;
+}

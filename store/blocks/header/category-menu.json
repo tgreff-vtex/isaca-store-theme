@@ -6,7 +6,10 @@
     "children": [
       "menu-item#category-major-appliances",
       "menu-item#category-small-appliances",
-      "menu-item#category-electronics"
+      "menu-item#category-electronics",
+      "menu-item#category-bedding",
+      "menu-item#category-towels"
+
     ]
   },
   "menu-item#category-major-appliances": {
@@ -251,6 +254,38 @@
         "noFollow": false,
         "tagTitle": "Laptops",
         "text": "Laptops"
+      }
+    }
+  },
+
+  "menu-item#category-bedding": {
+    "props": {
+      "id": "menu-item-category-bedding",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bedding/",
+        "noFollow": false,
+        "tagTitle": "Bedding",
+        "text": "Bedding"
+      }
+    }
+  },
+
+  "menu-item#category-towels": {
+    "props": {
+      "id": "menu-item-category-towels",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/towels/",
+        "noFollow": false,
+        "tagTitle": "Towels",
+        "text": "Towels"
       }
     }
   }

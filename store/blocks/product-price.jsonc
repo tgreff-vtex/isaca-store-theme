@@ -11,6 +11,16 @@
     ]
   },
 
+  "product-selling-price": {
+    "props": {
+      "markers": [
+        "highlight"
+      ],
+      "blockClass": "summary",
+      "message": "{sellingPriceValue} / dz"
+    }
+  },
+
   "flex-layout.row#list-price-savings": {
     "props": {
       "colGap": 2,
