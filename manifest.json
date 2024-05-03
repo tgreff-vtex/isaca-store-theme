@@ -1,7 +1,7 @@
 {
   "vendor": "tylergreff",
   "name": "b2c-theme",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "builders": {
     "messages": "1.x",
     "styles": "2.x",
