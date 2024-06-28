@@ -53,8 +53,8 @@
       "marginBottom": 4
     },
     "children": [
-      "product-selling-price#summary",
-      "product-price-savings#summary"
+      "product-selling-price#summary"
+      // "product-price-savings#summary"
     ]
   },
   "product-selling-price#summary": {

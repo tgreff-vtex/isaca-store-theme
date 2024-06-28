@@ -10,6 +10,7 @@
       // "check-permission#reseller-overlay-trigger",
       "flex-layout.row#1-desktop-telemarketing",
       "flex-layout.row#3-desktop-disclaimer",
+      "isaca-member",
       "flex-layout.row#b2b-user-widget",
       "sticky-layout#4-desktop"
     ]
@@ -134,6 +135,7 @@
       // "link#quickOrder",
       "search-bar",
       "locale-switcher",
+      "binding-selector",
       "login",
       "minicart.v2"
     ]
@@ -169,7 +171,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://tylergreff.vtexassets.com/arquivos/tylergreff_store-theme_logo_f0f0f0.png",
+      "url": "https://tylergreff.vtexassets.com/assets/vtex.file-manager-graphql/images/f12e8208-cd42-497e-aa1a-c38ccc7b3e09___1a7b0c30765793b8359a31769b9e6116.png",
       // "width": "180",
       "height": "50"
     }
@@ -201,9 +203,9 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-major-appliances",
-      "menu-item#category-small-appliances",
-      "menu-item#category-electronics"
+      "menu-item#category-resources",
+      "menu-item#category-exam-prep",
+      "menu-item#category-isaca-foundation"
     ],
     "props": {
       "orientation": "vertical"
@@ -223,6 +225,13 @@
   "flex-layout.col#header-spacer": {
     "props": {
       "width": "grow"
+    }
+  },
+
+  "binding-selector": {
+    "props": {
+      "layout": "dropdown",
+      "display": "combined"
     }
   }
 }

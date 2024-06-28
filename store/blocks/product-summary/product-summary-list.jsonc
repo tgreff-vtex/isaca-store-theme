@@ -31,8 +31,8 @@
       "blockClass": "savingsSummaryListDesktop"
     },
     "children": [
-      "product-price-savings#summaryPercentage",
-      "product-price-savings#summary"
+      "product-price-savings#summaryPercentage"
+      // "product-price-savings#summary"
     ]
   },
   "flex-layout.row#summaryListDesktop": {

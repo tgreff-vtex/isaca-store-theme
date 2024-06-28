@@ -29,3 +29,7 @@
   padding-right: .5rem;
   min-height: 350px;
 }
+
+.sliderLeftArrow, .sliderRightArrow {
+  color: white;
+}

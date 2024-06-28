@@ -3,7 +3,8 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
-      "flex-layout.row#desc-spec",
+      "product-description",
+      //"flex-layout.row#desc-spec",
       "shelf.relatedProducts",
       "product-reviews",
       "product-questions-and-answers"
@@ -122,9 +123,10 @@
       "product-separator",
       "sku-selector",
       "product-quantity",
-      "seller-table",
-      "link-seller",
+      // "seller-table",
+      // "link-seller",
       "product-assembly-options",
+      // "product-summary-attachment-list",
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",

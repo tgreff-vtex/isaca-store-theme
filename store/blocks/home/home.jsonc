@@ -1,26 +1,49 @@
 {
   "store.home": {
     "blocks": [
-      "image#whirlpool-collection",
+      // "image#isaca-membership",
+      "slider-layout#banners",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
-      "__fold__",
+       "rich-text#shelf-2-title",
+       "flex-layout.row#shelf-2",
+       "flex-layout.row#deals",
+       "__fold__",
       "rich-text#shelf-1-title",
       "flex-layout.row#shelf-1",
-      "flex-layout.row#contact",
-      "rich-text#shelf-2-title",
-      "flex-layout.row#shelf-2"
+      "flex-layout.row#contact"
     ]
   },
 
-  "image#whirlpool-collection": {
+  "slider-layout#banners": {
     "props": {
-      "src": "assets/images/whirlpool-sale-banner.jpeg",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#isaca-membership", "image#ai-course"]
+  },
+
+  "image#isaca-membership": {
+    "props": {
+      "src": "assets/images/isaca_member_banner.png",
       "width": "fullWidth",
       "preload": true,
-      "callToActionUrl": "/whirlpool"
+      "link": "https://isaca--tylergreff.myvtex.com/it-audit-fundamentals-bundle/p?__bindingAddress=tylergreff.myvtex.com/"
+    }
+  },
 
+  "image#ai-course": {
+    "props": {
+      "src": "assets/images/intro_ai_banner.png",
+      "width": "fullWidth",
+      "preload": true,
+      "link": ""
     }
   },
 

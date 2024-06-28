@@ -7,7 +7,8 @@
       "marginBottom": 4
     },
     "children": [
-      "product-selling-price"
+      "product-selling-price",
+      "isaca-price-label"
     ]
   },
 
@@ -17,7 +18,7 @@
         "highlight"
       ],
       "blockClass": "summary",
-      "message": "{sellingPriceValue} / dz"
+      "message": "{sellingPriceValue} | "
     }
   },
 
@@ -28,10 +29,10 @@
       "preventHorizontalStretch": true,
       "marginBottom": 2,
       "marginTop": 5
-    },
-    "children": [
-      "product-list-price",
-      "product-price-savings"
-    ]
+    }
+    // "children": [
+    //   "product-list-price",
+    //   "product-price-savings"
+    // ]
   }
 }
