@@ -72,12 +72,12 @@
     "vtex.overlay-layout": "0.x",
     "vtex.store-newsletter": "1.x",
     "vtex.challenge-tp-condition": "0.x",
+    "vtex.binding-selector": "1.x",
     "tylergreff.isaca": "2.0.1-beta.0"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",
-    "vtex.quickorder": "3.x",
-    "vtex.binding-selector": "1.x"
+    "vtex.quickorder": "3.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
