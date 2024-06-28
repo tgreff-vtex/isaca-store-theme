@@ -1,7 +1,7 @@
 {
   "vendor": "tylergreff",
   "name": "isaca-theme",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.1-beta.0",
   "builders": {
     "messages": "1.x",
     "styles": "2.x",
