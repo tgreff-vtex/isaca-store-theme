@@ -72,7 +72,7 @@
     "vtex.overlay-layout": "0.x",
     "vtex.store-newsletter": "1.x",
     "vtex.challenge-tp-condition": "0.x",
-    "tylergreff.isaca": "2.x"
+    "tylergreff.isaca": "2.0.1-beta.0"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",
