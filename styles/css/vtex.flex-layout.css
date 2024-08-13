@@ -4,12 +4,12 @@
 }
 
 .flexRowContent--disclaimer {
-  background-color: pink;
+  background-color: #cce4ff;
   color: black;
 }
 
 .flexRowContent.flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: #FFFFFF;
 }
 
 .flexRowContent.flexRowContent--menu-link {
@@ -17,7 +17,7 @@
 }
 
 .flexCol--menu-link {
-  background-color: #f0f0f0;
+  background-color: #FFFFFF;
 }
 
 @media screen and (min-width: 40em) {
@@ -35,12 +35,12 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #f71963;
+  background-color: #30629a;
   color: white;
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: #FFFFFF;
 }
 
 .flexRowContent--main-header-mobile {
@@ -61,11 +61,11 @@
 }
 
 .flexCol--main-header {
-  background-color: #f71963;
+  background-color: #30629a;
 }
 
 .flexRow--deals {
-  background-color: #FFE0EF;
+  background-color: #cce4ff;
   padding: 14px 0px;
   margin-top: -5px;
 }
@@ -122,11 +122,11 @@
 }
 
 .flexCol--contact, .flexColChild--newsletter {
-  background-color: #FFE0EF;
+  background-color: #cce4ff;
 }
 
 .flexRowContent--form {
-  background-color: #FFE0EF;
+  background-color: #cce4ff;
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
@@ -137,7 +137,7 @@
 }
 
 .flexRowContent.flexRowContent--footer-menu {
-  background-color: #f71963;
+  background-color: #30629a;
   width: 100vw;
 }
 
@@ -159,4 +159,12 @@
   background-color: #03044e;
 }
 
+.flexRow--isaca-price-plp {
+  align-self: left;
+  font-size: 1rem;
+}
+
+.flexColChild--pdp-right {
+  font-size: 1.25rem;
+}
 

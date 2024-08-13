@@ -9,10 +9,6 @@
     "path": "/contact-us"
   },
 
-  "store.custom#whirlpool": {
-    "path": "/whirlpool"
-  },
-
   "store.custom#blog": {
     "path": "/blog"
   }

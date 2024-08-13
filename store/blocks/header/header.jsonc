@@ -1,59 +1,24 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
       // "check-permission#reseller-overlay-trigger",
       "flex-layout.row#1-desktop-telemarketing",
       "flex-layout.row#3-desktop-disclaimer",
-      "flex-layout.row#b2b-user-widget",
-      "sticky-layout#4-desktop"
+      "sticky-layout#4-desktop",
+      "isaca-member"
     ]
-  },
-
-  "flex-layout.row#b2b-user-widget": {
-    "children": [
-      "b2b-user-widget"
-      // "rich-text#test",
-    ],
-    "props": {
-      "fullWidth": true,
-      "blockClass": "b2b"
-    }
-  },
-
-  "b2b-user-widget": {
-    "props": {
-      "showLoadingIndicator": true
-    }
-  },
-
-  "link#reseller": {
-    "props": {
-      "label": "Organization Request",
-      "href": "/organization-request",
-      "blockClass": "resellerLink"
-    }
-  },
-
-  "link#organization": {
-    "props": {
-      "label": "Gerenciar organização",
-      "href": "/account#/organization",
-      "blockClass": "orderQuote"
-    }
-  },
-
-  "link#orderQuote": {
-    "props": {
-      "label": "Minhas cotações",
-      "href": "/b2b-quotes",
-      "blockClass": "orderQuote"
-    }
   },
 
   "flex-layout.row#1-desktop-telemarketing": {
@@ -94,7 +59,6 @@
     "children": [
       "rich-text#disclaimer",
       "flex-layout.col#spacer"
-      // "locale-switcher"
     ]
   },
 
@@ -131,13 +95,21 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
       "flex-layout.col#header-spacer",
-      // "link#quickOrder",
       "search-bar",
-      "locale-switcher",
+      "binding-selector",
+      // "locale-switcher",
       "login",
       "minicart.v2"
     ]
   },
+
+  "binding-selector": {
+    "props": {
+      "layout": "dropdown",
+      "display": "combined"
+    }
+  },
+
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
@@ -169,7 +141,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://tylergreff.vtexassets.com/arquivos/tylergreff_store-theme_logo_f0f0f0.png",
+      "url": "https://tylergreff.vtexassets.com/assets/vtex.file-manager-graphql/images/46faf831-d9a5-4421-92b3-473af9f0d0ea___045cd4dc28e4da2471b4c3399d70858a.jpg",
       // "width": "180",
       "height": "50"
     }
@@ -201,9 +173,10 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-major-appliances",
-      "menu-item#category-small-appliances",
-      "menu-item#category-electronics"
+      "menu-item#category-exam-prep",
+      "menu-item#category-cert-exams",
+      "menu-item#category-isaca-foundation",
+      "menu-item#category-isaca-membership"
     ],
     "props": {
       "orientation": "vertical"
@@ -214,7 +187,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://tylergreff.vtexassets.com/arquivos/tylergreff_store-theme_logo_f0f0f0.png",
+      "url": "https://tylergreff.vtexassets.com/assets/vtex.file-manager-graphql/images/46faf831-d9a5-4421-92b3-473af9f0d0ea___045cd4dc28e4da2471b4c3399d70858a.jpg",
       "width": "77.5",
       "height": "27.5"
     }

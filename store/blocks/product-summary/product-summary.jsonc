@@ -50,11 +50,13 @@
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "marginBottom": 4
+      "marginBottom": 4,
+      "blockClass": "isaca-price-plp"
     },
     "children": [
       "product-selling-price#summary",
       "product-price-savings#summary"
+      // "isaca-price-label"
     ]
   },
   "product-selling-price#summary": {

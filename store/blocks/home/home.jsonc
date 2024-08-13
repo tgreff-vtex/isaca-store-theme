@@ -1,26 +1,57 @@
 {
   "store.home": {
     "blocks": [
-      "image#whirlpool-collection",
+     "slider-layout#isaca-banners",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "__fold__",
       "rich-text#shelf-1-title",
       "flex-layout.row#shelf-1",
+      "__fold__",
+      "video#isaca-welcome",
       "flex-layout.row#contact",
+      "__fold__",
       "rich-text#shelf-2-title",
       "flex-layout.row#shelf-2"
     ]
   },
 
-  "image#whirlpool-collection": {
+  "slider-layout#isaca-banners": {
     "props": {
-      "src": "assets/images/whirlpool-sale-banner.jpeg",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "isaca-banners"
+    },
+    "children": ["image#isaca-ai-banner", "image#isaca-member-banner"]
+  },
+
+  "image#isaca-ai-banner": {
+    "props": {
+      "src": "assets/images/isaca-ai-banner.png",
       "width": "fullWidth",
       "preload": true,
-      "callToActionUrl": "/whirlpool"
+      "link": {
+        "newTab": true,
+        "url": "https://isaca--tylergreff.myvtex.com/exam-prep/artificial-intelligence-fundamentals?__bindingAddress=tylergreff.myvtex.com/us"
+      }
+    }
+  },
 
+  "image#isaca-member-banner": {
+    "props": {
+      "src": "assets/images/isaca-member-banner.png",
+      "width": "fullWidth",
+      "preload": true,
+      "link": {
+        "newTab": true,
+        "url": "https://isaca--tylergreff.myvtex.com/isaca-membership-year/p?__bindingAddress=tylergreff.myvtex.com/us"
+      }
     }
   },
 
@@ -51,6 +82,18 @@
       "fullWidth": false,
       "blockClass": "shelf",
       "usePagination": "false"
+    }
+  },
+
+  "video#isaca-welcome": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": true,
+      "src": "https://www.youtube.com/watch?v=GWUrA8DpTOk",
+      "blockClass": "isacaVideo"
     }
   },
 

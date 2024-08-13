@@ -29,3 +29,11 @@
   padding-right: .5rem;
   min-height: 350px;
 }
+
+.sliderArrows--isaca-banners {
+  color: white;
+}
+
+.slideChildrenContainer--isaca-banners {
+  padding-top: 0rem;
+}

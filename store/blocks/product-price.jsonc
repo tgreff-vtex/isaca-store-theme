@@ -17,7 +17,7 @@
         "highlight"
       ],
       "blockClass": "summary",
-      "message": "{sellingPriceValue} / dz"
+      "message": "{sellingPriceValue}"
     }
   },
 

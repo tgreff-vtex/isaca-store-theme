@@ -1,7 +1,7 @@
 {
   "vendor": "tylergreff",
-  "name": "b2c-theme",
-  "version": "2.1.1",
+  "name": "isaca-theme",
+  "version": "0.0.0",
   "builders": {
     "messages": "1.x",
     "styles": "2.x",
@@ -70,11 +70,13 @@
     "vtex.b2b-organizations": "1.x",
     "vtex.storefront-permissions-ui": "1.x",
     "vtex.overlay-layout": "0.x",
-    "vtex.store-newsletter": "1.x"
+    "vtex.store-newsletter": "1.x",
+    "tylergreff.isaca": "2.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",
-    "vtex.quickorder": "3.x"
+    "vtex.quickorder": "3.x",
+    "vtex.binding-selector": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

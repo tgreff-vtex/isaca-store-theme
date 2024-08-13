@@ -4,288 +4,156 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-major-appliances",
-      "menu-item#category-small-appliances",
-      "menu-item#category-electronics",
-      "menu-item#category-bedding",
-      "menu-item#category-towels"
-
+      "menu-item#category-exam-prep",
+      "menu-item#category-cert-exams",
+      "menu-item#category-isaca-foundation",
+      "menu-item#category-isaca-membership"
     ]
   },
-  "menu-item#category-major-appliances": {
+  "menu-item#category-exam-prep": {
     "props": {
-      "id": "menu-item-category-major-appliances",
+      "id": "menu-item-category-exam-prep",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/major-appliances/",
+        "href": "/exam-prep/",
         "noFollow": false,
-        "tagTitle": "Major Appliances",
-        "text": "Major Appliances"
+        "tagTitle": "Exam Prep",
+        "text": "Exam Prep"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-major-appliances"
+      "vtex.menu@2.x:submenu#category-exam-prep"
     ]
   },
-  "vtex.menu@2.x:submenu#category-major-appliances": {
+  "vtex.menu@2.x:submenu#category-exam-prep": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-major-appliances"
+      "vtex.menu@2.x:menu#category-exam-prep"
     ]
   },
-  "vtex.menu@2.x:menu#category-major-appliances": {
+  "vtex.menu@2.x:menu#category-exam-prep": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-refrigerators",
-      "menu-item#category-ranges---ovens",
-      "menu-item#category-washers---dryers"
+      "menu-item#category-CISA",
+      "menu-item#category-CISM",
+      "menu-item#category-it-audit-fundamentals",
+      "menu-item#category-ai-fundamentals"
     ]
   },
-  "menu-item#category-refrigerators": {
+
+  "menu-item#category-cert-exams": {
     "props": {
-      "id": "menu-item-category-refrigerators",
+      "id": "menu-item-category-cert-exams",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/major-appliances/refrigerators/",
+        "href": "/exam-prep/certification-exams/",
         "noFollow": false,
-        "tagTitle": "Refrigerators",
-        "text": "Refrigerators"
-      }
-    }
-  },
-  "menu-item#category-ranges---ovens": {
-    "props": {
-      "id": "menu-item-category-ranges---ovens",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/major-appliances/ranges---ovens/",
-        "noFollow": false,
-        "tagTitle": "Ranges & Ovens",
-        "text": "Ranges & Ovens"
-      }
-    }
-  },
-  "menu-item#category-washers---dryers": {
-    "props": {
-      "id": "menu-item-category-washers---dryers",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/major-appliances/washers---dryers/",
-        "noFollow": false,
-        "tagTitle": "Washers & Dryers",
-        "text": "Washers & Dryers"
+        "tagTitle": "Certification Exams",
+        "text": "Certification Exams"
       }
     }
   },
 
-  "menu-item#category-small-appliances": {
+  "menu-item#category-CISA": {
     "props": {
-      "id": "menu-item-category-small-appliances",
+      "id": "menu-item-category-CISA",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/small-appliances/",
+        "href": "/exam-prep/cisa",
         "noFollow": false,
-        "tagTitle": "small Appliances",
-        "text": "Small Appliances"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-small-appliances"
-    ]
-  },
-  "vtex.menu@2.x:submenu#category-small-appliances": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-small-appliances"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-small-appliances": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-mixers---blenders",
-      "menu-item#category-coffee-makers",
-      "menu-item#category-toasters---grills"
-    ]
-  },
-  "menu-item#category-mixers---blenders": {
-    "props": {
-      "id": "menu-item-category-mixers---blenders",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/small-appliances/mixers---blenders/",
-        "noFollow": false,
-        "tagTitle": "Mixers & Blenders",
-        "text": "Mixers & Blenders"
+        "tagTitle": "CISA",
+        "text": "CISA"
       }
     }
   },
-  "menu-item#category-coffee-makers": {
+  "menu-item#category-CISM": {
     "props": {
-      "id": "menu-item-category-coffee-makers",
+      "id": "menu-item-category-CISM",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/small-appliances/coffee-makers/",
+        "href": "/exam-prep/cism",
         "noFollow": false,
-        "tagTitle": "Coffee Makers",
-        "text": "Coffee Makers"
-      }
-    }
-  },
-  "menu-item#category-toasters---grills": {
-    "props": {
-      "id": "menu-item-category-toasters---grills",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/small-appliances/toasters---grills/",
-        "noFollow": false,
-        "tagTitle": "Toasters & Grills",
-        "text": "Toasters & Grills"
+        "tagTitle": "CISM",
+        "text": "CISM"
       }
     }
   },
 
-  "menu-item#category-electronics": {
+  "menu-item#category-it-audit-fundamentals": {
     "props": {
-      "id": "menu-item-category-electronics",
+      "id": "menu-item-category-it-audit-fundamentals",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/",
+        "href": "/exam-prep/it-audit-fundamentals/",
         "noFollow": false,
-        "tagTitle": "Electronics",
-        "text": "Electronics"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-electronics"
-    ]
-  },
-  "vtex.menu@2.x:submenu#category-electronics": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-electronics"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-electronics": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-cameras",
-      "menu-item#category-tvs",
-      "menu-item#category-laptops"
-    ]
-  },
-  "menu-item#category-cameras": {
-    "props": {
-      "id": "menu-item-category-cameras",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/electronics/cameras/",
-        "noFollow": false,
-        "tagTitle": "Cameras",
-        "text": "Cameras"
+        "tagTitle": "IT Audit Fundamentals",
+        "text": "IT Audit Fundamentals"
       }
     }
   },
-  "menu-item#category-tvs": {
+  "menu-item#category-ai-fundamentals": {
     "props": {
-      "id": "menu-item-category-tvs",
+      "id": "menu-item-category-ai-fundamentals",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/tvs/",
+        "href": "/exam-prep/artificial-intelligence-fundamentals",
         "noFollow": false,
-        "tagTitle": "TVs",
-        "text": "TVs"
-      }
-    }
-  },
-  "menu-item#category-laptops": {
-    "props": {
-      "id": "menu-item-category-laptops",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/electronics/laptops/",
-        "noFollow": false,
-        "tagTitle": "Laptops",
-        "text": "Laptops"
+        "tagTitle": "Artificial Intelligence Fundamentals",
+        "text": "Artificial Intelligence Fundamentals"
       }
     }
   },
 
-  "menu-item#category-bedding": {
+  "menu-item#category-isaca-foundation": {
     "props": {
-      "id": "menu-item-category-bedding",
+      "id": "menu-item-category-isaca-foundation",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bedding/",
+        "href": "/isaca-foundation/",
         "noFollow": false,
-        "tagTitle": "Bedding",
-        "text": "Bedding"
+        "tagTitle": "ISACA Foundation",
+        "text": "ISACA Foundation"
       }
     }
   },
 
-  "menu-item#category-towels": {
+  "menu-item#category-isaca-membership": {
     "props": {
-      "id": "menu-item-category-towels",
+      "id": "menu-item-category-isaca-membership",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/towels/",
+        "href": "/isaca-membership-year/p",
         "noFollow": false,
-        "tagTitle": "Towels",
-        "text": "Towels"
+        "tagTitle": "Membership",
+        "text": "Membership"
       }
     }
   }

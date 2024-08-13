@@ -3,8 +3,10 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
-      "flex-layout.row#desc-spec",
+      "tab-layout#pdp",
+      "product-separator",
       "shelf.relatedProducts",
+      "product-separator",
       "product-reviews",
       "product-questions-and-answers"
     ]
@@ -112,17 +114,20 @@
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "pdp-right"
     },
     "children": [
       "flex-layout.row#product-name",
       "product-rating-summary",
-      "flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",
+      // "flex-layout.row#list-price-savings",
+      // "flex-layout.row#selling-price",
+      "product-separator",
+      "isaca-price-label",
       "product-separator",
       "sku-selector",
       "product-quantity",
-      "seller-table",
+      // "seller-table",
       "link-seller",
       "product-assembly-options",
       "product-gifts",
@@ -137,7 +142,7 @@
 
   "sku-selector": {
     "props": {
-      "displayMode": "display",
+      "displayMode": "default",
       "variationsSpacing": 5,
       "showValueNameForImageVariation": true,
       "hideImpossibleCombinations": false
@@ -264,6 +269,78 @@
   "link-seller": {
     "props": {
       "message": "View full offer details from {sellerQuantity} sellers"
+    }
+  },
+
+  "shelf.relatedProducts": {
+    "props": {
+        // "recommendation": "suggestions",
+        "productList": {
+            "titleText": "More Products You May Like",
+            "itemsPerPage": 5
+        },
+        "blockClass": "related-products"
+    },
+    "blocks": [
+      "vtex.product-summary@2.x:product-summary"
+    ]
+  },
+
+  "vtex.product-summary@2.x:product-summary": {
+    "props": {
+      "blockClass": "related-product-card"
+    }
+  },
+
+  "tab-layout#pdp": {
+    "children": [
+      "tab-list#pdp",
+      "tab-content#pdp"
+    ],
+    "props": {
+      "blockClass": "pdp",
+      "defaultActiveTabId": "desc"
+    }
+  },
+  "tab-list#pdp": {
+    "children": [
+      "tab-list.item#desc",
+      "tab-list.item#reqs"
+    ]
+  },
+  "tab-list.item#desc": {
+    "props": {
+      "tabId": "desc",
+      "label": "Description",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#reqs": {
+    "props": {
+      "tabId": "reqs",
+      "label": "Requirements"
+    }
+  },
+  "tab-content#pdp": {
+    "children": [
+      "tab-content.item#desc",
+      "tab-content.item#reqs"
+    ]
+  },
+  "tab-content.item#desc": {
+    "children": [
+      "product-description"
+    ],
+    "props": {
+      "tabId": "desc"
+    }
+  },
+  "tab-content.item#reqs": {
+    "children": [
+      "product-specification-group#table"
+    ],
+    "props": {
+      "tabId": "reqs"
     }
   }
 }
